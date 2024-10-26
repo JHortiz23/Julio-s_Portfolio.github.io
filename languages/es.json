@@ -1,0 +1,58 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Desarrolladora de Software",
+        "parrafo-info": "Desarrollador con alrededor de 3 años de experiencia, especializado en la creación de soluciones eficientes utilizando tecnologías como Java, C#, React, Node.js, JavaScript, HTML, CSS y ASP.NET. Mi enfoque se centra en la implementación de arquitecturas basadas en principios de programación orientada a objetos (OOP) y MVC. Además, poseo un manejo sólido de bases de datos, trabajando tanto con SQL Server como con MySQL.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy graduado del Instituto Nacional de Aprendizaje (INA) en Costa Rica, donde obtuve el título de Programador de Aplicaciones Informáticas. Esto me ha permitido desarrollar habilidades en diversas áreas del desarrollo de software.\n\nCuento con aproximadamente 3 años de experiencia como desarrollador de software, especializado en crear soluciones eficientes con tecnologías como Java, C#, React, Node.js, JavaScript, HTML, CSS y ASP.NET. Mi enfoque está en la implementación de arquitecturas sólidas basadas en principios de programación orientada a objetos (OOP) y el modelo MVC, garantizando tanto la funcionalidad como la escalabilidad de las aplicaciones.\n\nAdemás, tengo un manejo avanzado de bases de datos, trabajando con SQL Server y MySQL. Mis conocimientos en máquinas virtuales y desarrollo de API también fortalecen mi perfil, permitiéndome adaptarme y responder a las demandas técnicas del entorno actual.\n\nSoy un profesional proactivo y autodidacta, que busca siempre superar nuevos desafíos y continuar aprendiendo. Estoy en constante búsqueda de proyectos en los cuales pueda contribuir significativamente, mientras sigo expandiendo mis habilidades y conocimientos en el campo del desarrollo de software."
+    },
+
+
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación",
+        "formacion1": "Desarrollo Backend Java",
+        "tiempo-formacion1": "2024 - 2024",
+        "formacion2": "Desarrollador de Software",
+        "tiempo-formacion2": "2022 - 2024",
+        "formacion3": "Operador de tecnologías de la Información",
+        "tiempo-formacion3": "2023 - 2023",
+        "formacion4": "Inglés para Servicio al Cliente",
+        "tiempo-formacion4": "2019 - 2020"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "SIGAE",
+        "info-proyecto1": "Aplicación web de gestión educativa para centros, desarrollada en React.js con base de datos en MariaDB y conectada a un servidor mediante una API.",
+        "title-proyecto2": "SIDECIT",
+        "info-proyecto2": "Sistema de gestión de citas odontológicas en C# (WinForms) y SQL Server.",
+        "title-proyecto3": "RestauranTech",
+        "info-proyecto3": "Sistema de punto de venta para restaurantes en C# y SQL Server, con aplicación web en React para gestión en tiempo real.",
+        "title-proyecto4": "Foro Alura",
+        "info-proyecto4": "Reto de formación Backend con Java y Spring del programa ONE: desarrollar el backend de un foro para Alura Latam, donde estudiantes, profesores y moderadores pueden interactuar mediante preguntas y respuestas."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}

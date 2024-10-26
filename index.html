@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Julio Ortiz - Desarrollador de Software">
+    <meta name="robots" content="index,follow">
+
+    <title>Julio Ortiz | Desarrollador de Software</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/J-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/code.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#footer" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/Julio Ortiz.jpg" alt="Fotografia Julio Ortiz">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Julio Ortiz</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrollador de Software</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Desarrollador con alrededor de 3 años de experiencia, especializado en la creación de soluciones eficientes utilizando tecnologías como Java, C#, React, Node.js, JavaScript, HTML, CSS y ASP.NET. Mi enfoque se centra en la implementación de arquitecturas basadas en principios de programación orientada a objetos (OOP) y MVC. Además, poseo un manejo sólido de bases de datos, trabajando tanto con SQL Server como con MySQL.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1xeCCTOIjRuEVI7JXbeVoekeaan18Lsqh/view?usp=sharing" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="#footer">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/julio-hurtado-ortiz-71714a1b7/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/JHortiz23" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="mailto:juhuortiz13@gmail.com">
+                    <img src="./assets/images/email.png" alt="Email">
+                </a>                
+                <a href="https://wa.me/+50687474054" target="_blank">
+                    <img src="./assets/images/whatsapp.png" alt="WhatsApp">
+                </a>                
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy graduado del Instituto Nacional de Aprendizaje (INA) en Costa Rica, una de las instituciones más reconocidas en formación técnica y profesional del país, donde obtuve el título de Programador de Aplicaciones Informáticas. Esto me ha permitido desarrollar habilidades en diversas áreas del desarrollo de software.
+
+                        Cuento con aproximadamente 3 años de experiencia como desarrollador de software, especializado en crear soluciones eficientes con tecnologías como Java, C#, React, Node.js, JavaScript, HTML, CSS y ASP.NET. Mi enfoque está en la implementación de arquitecturas sólidas basadas en principios de programación orientada a objetos (OOP) y el modelo MVC, garantizando tanto la funcionalidad como la escalabilidad de las aplicaciones.
+
+                        Además, tengo un manejo avanzado de bases de datos, trabajando con SQL Server y MySQL. Mis conocimientos en máquinas virtuales y desarrollo de API también fortalecen mi perfil, permitiéndome adaptarme y responder a las demandas técnicas del entorno actual.
+
+                        Soy un profesional proactivo y autodidacta, que busca siempre superar nuevos desafíos y continuar aprendiendo. Estoy en constante búsqueda de proyectos en los cuales pueda contribuir significativamente, mientras sigo expandiendo mis habilidades y conocimientos en el campo del desarrollo de software.
+                    </span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/me.png" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+        
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-html.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-css.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/react.png" alt="React">
+                    <p>React</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/net-logo.png" alt=".Net">
+                    <p>ASP .NET</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/c-sharp.png" alt="C-Sharp">
+                    <p>C-Sharp</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/java.png" alt="Java">
+                    <p>Java</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/spring boot.png" alt="Spring Boot">
+                    <p>Spring Boot</p>
+                </div>
+            </div>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/nodejs.png" alt="Node.js">
+                    <p>Node.Js</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/sql-server.png" alt="SQL Server">
+                    <p>SQL Server</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/mysql.png" alt="Mysql">
+                    <p>Mysql</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/postgresql-icon.png" alt="Postgresql">
+                    <p>PostgreSQL</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-github-hab.png" alt="Github">
+                    <p>Github</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/Azure Devops.png" alt="Azure Devops">
+                    <p>Azure Devops</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/virtuabox.png" alt="Virtuabox">
+                    <p>Virtualbox</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación</h1>
+
+            <div class="cards_container--formacion">
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/logo-one.png" alt="Logo - ONE: Oracle Next Education">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Desarrollo Backend Java</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2024 - 2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-ina" src="./assets/images/INA-LOGO.png" alt="Logo - INA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Desarrollador de Software</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2022 - 2024</p>
+                    </div>
+                </div>
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-ina" src="./assets/images/INA-LOGO.png" alt="Logo - INA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Operador de tecnologías de la Información</p>
+                        <p data-section="formacion" data-value="tiempo-formacion3">2023 - 2023</p>
+                    </div>
+                </div>
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-ina" src="./assets/images/INA-LOGO.png" alt="Logo - INA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion4">Inglés para Servicio al Cliente</p>
+                        <p data-section="formacion" data-value="tiempo-formacion4">2019 - 2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_sigae" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/SIGAE.png" alt="Proyecto: SIGAE">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">SIGAE</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">Aplicación web de gestión educativa para centros, desarrollada en React.js con base de datos en MariaDB y conectada a un servidor mediante una API.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <!--<a href="https://mariasmoun.github.io/Juego-del-Ahorcado/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>-->
+
+                        <a href="https://github.com/JHortiz23" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_sidecit" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/SIDECIT-2.png" alt="Proyecto: SIDECIT">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">SIDECIT</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">Sistema de gestión de citas odontológicas en C# (WinForms) y SQL Server.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+
+                        <a href="https://github.com/JHortiz23" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_rest" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/restaurantech.png" alt="Proyecto: RestauranTech">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">RestauranTech</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Sistema de punto de venta para restaurantes en C# y SQL Server, con aplicación web en React para gestión en tiempo real.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/JHortiz23" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="cards--proyectos card_foro" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/alura-foro.png" alt="Proyecto: Foro Alura">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto4">Foro Alura</h2>
+                        <p data-section="proyectos" data-value="info-proyecto4">Reto de formación Backend con Java y Spring del programa ONE: desarrollar el backend de un foro para Alura Latam, donde estudiantes, profesores y moderadores pueden interactuar mediante preguntas y respuestas.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+
+                        <a href="https://github.com/JHortiz23/Alura_Foro" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                
+            </div> 
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/julio-hurtado-ortiz-71714a1b7/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/JHortiz23" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="mailto:juhuortiz13@gmail.com">
+                    <img src="./assets/images/email.png" alt="Email">
+                </a>  
+                <a href="https://wa.me/+50687474054" target="_blank">
+                    <img src="./assets/images/whatsapp.png" alt="WhatsApp">
+                </a>  
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright 2024© | designed</span>
+                <img src="./assets/images/icon-corazon.png" alt="Corazón" style="display: none;">
+                <span>by</span>
+                <span>Julio Ortiz</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+</html>

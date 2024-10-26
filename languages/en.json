@@ -1,0 +1,56 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Education",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "Software Developer",
+        "parrafo-info": "Developer with around 3 years of experience, specialized in creating efficient solutions using technologies such as Java, C#, React, Node.js, JavaScript, HTML, CSS, and ASP.NET. My focus is on implementing architectures based on object-oriented programming (OOP) and MVC principles. Additionally, I have strong skills in databases, working with both SQL Server and MySQL.",
+        "cv_button": "Resumé",
+        "contact_button": "Contact"
+    },
+    "sobre-mi": {
+        "title": "About Me",
+        "texto_sobreMi": "I graduated from the Instituto Nacional de Aprendizaje (INA) in Costa Rica, a leading institution for technical and professional training, where I earned the title of Application Programmer. This education has equipped me with a diverse skill set in software development.\n\nI have around 3 years of experience as a software developer, specializing in creating efficient solutions using technologies such as Java, C#, React, Node.js, JavaScript, HTML, CSS, and ASP.NET. My focus lies in implementing robust architectures based on object-oriented programming (OOP) principles and the MVC model, ensuring both functionality and scalability in applications.\n\nIn addition, I possess advanced database skills, working with SQL Server and MySQL. My expertise in virtual machines and API development further enhances my profile, enabling me to adapt to the evolving technical landscape.\n\nAs a proactive and self-taught professional, I am always eager to tackle new challenges and continue learning. I actively seek projects where I can make significant contributions while further expanding my skills and knowledge in software development."
+    },
+
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Education",
+        "formacion1": "Java Backend Development",
+        "tiempo-formacion1": "2024 - 2024",
+        "formacion2": "Software Development",
+        "tiempo-formacion2": "2022 - 2024",
+        "formacion3": "Information Technology Operator",
+        "tiempo-formacion3": "2023 - 2023",
+        "formacion4": "English for Customer Service",
+        "tiempo-formacion4": "2019 - 2020"
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "title-proyecto1": "SIGAE",
+        "info-proyecto1": "Web application for educational management for centers, developed in React.js with a MariaDB database and connected to a server via an API.",
+        "title-proyecto2": "SIDECIT",
+        "info-proyecto2": "Dental appointment management system in C# (WinForms) and SQL Server.",
+        "title-proyecto3": "RestauranTech",
+        "info-proyecto3": "Point of sale system for restaurants in C# and SQL Server, with a web application in React for real-time management.",
+        "title-proyecto4": "Foro Alura",
+        "info-proyecto4": "Backend training challenge with Java and Spring from the ONE program: develop the backend of a forum for Alura Latam, where students, teachers, and moderators can interact through questions and answers."
+    },
+
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn-enviar": "Send"
+    }
+}
