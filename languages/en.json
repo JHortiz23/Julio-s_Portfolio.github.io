@@ -8,9 +8,9 @@
     },
 
     "home": {
-        "home_text-1": "Hi! I'm",
-        "home_text-3": ".Net & Flutter Developer",
-        "parrafo-info": "Developer with around 3 years of experience, specialized in creating efficient solutions using technologies such as Java, C#, React, Node.js, JavaScript, HTML, CSS, and ASP.NET. My focus is on implementing architectures based on object-oriented programming (OOP) and MVC principles. Additionally, I have strong skills in databases, working with both SQL Server and MySQL.",
+    "home_text-1": "Hi! I'm",
+    "home_text-3": ".Net & Flutter Developer",
+    "parrafo-info": "Detail-oriented .NET & Flutter Developer with hands-on experience in backend API development, frontend integration with Flutter, and team leadership in client-facing projects. Skilled in C#, ASP.NET, SQL Server, and Git. Proven ability to manage external projects, review pull requests, and collaborate with cross-functional teams. Passionate about building scalable solutions that solve real business problems.",
         "cv_button": "Download Resume",
         "contact_button": "Contact"
     },
