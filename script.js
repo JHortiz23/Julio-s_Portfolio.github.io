@@ -47,6 +47,9 @@ const changeLanguage = async language => {
     }
 }
 
+// Load Spanish copy on startup so initial HTML matches translation spacing exactly.
+changeLanguage('es');
+
 flagsElement.addEventListener('click', (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
 })
