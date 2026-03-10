@@ -10,7 +10,7 @@
     "home": {
         "home_text-1": "Hola! Soy",
         "home_text-3": "Desarrollador Full-Stack",
-        "parrafo-info": "Desarrollador Full-Stack orientado a resultados con más de 2 años de experiencia entregando soluciones móviles y web multiplataforma con .NET/ASP.NET, Flutter y React/React Native. Sólidas habilidades backend en REST APIs, SQL Server/MySQL, Entity Framework y Dapper, además de JavaScript/TypeScript moderno, Node.js y Java/Spring Boot. Experiencia integrando pagos con Stripe, búsqueda con Algolia y plataformas cloud (AWS/GCP), aplicando Clean Architecture, participando en flujos de trabajo Agile, revisando PRs y liderando proyectos con clientes directos y equipos distribuidos en distintas zonas horarias.",
+        "parrafo-info": "Desarrollador Full-Stack orientado a resultados con 3 años de experiencia entregando soluciones móviles y web multiplataforma con .NET/ASP.NET, Flutter y React/React Native. Sólidas habilidades backend en REST APIs, SQL Server/MySQL, Entity Framework y Dapper, además de JavaScript/TypeScript moderno, Node.js y Java/Spring Boot. Experiencia integrando pagos con Stripe, búsqueda con Algolia y plataformas cloud (AWS/GCP), aplicando Clean Architecture, participando en flujos de trabajo Agile, revisando PRs y liderando proyectos con clientes directos y equipos distribuidos en distintas zonas horarias.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },

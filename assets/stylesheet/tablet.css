@@ -93,11 +93,16 @@ nav.nav_menu.active {
 /* Proyectos */
 
 .cards--proyectos {
-    max-width: 48rem;
+    width: 34rem;
+    min-width: 34rem;
 }
 
-.container_btn--proyectos button {
-    width: 20.6rem;
+.container_textCard--proyectos h2 {
+    font-size: 1.8rem;
+}
+
+.container_textCard--proyectos p {
+    font-size: 1.3rem;
 }
 
 /* Contacto */
