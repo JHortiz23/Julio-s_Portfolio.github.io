@@ -9,7 +9,7 @@
 
     "home": {
         "home_text-1": "Hola! Soy",
-        "home_text-3": "Desarrollador .Net & Flutter",
+        "home_text-3": "Desarrollador Full-Stack",
         "parrafo-info": "Desarrollador Full-Stack orientado a resultados con más de 2 años de experiencia entregando soluciones móviles y web multiplataforma con .NET/ASP.NET, Flutter y React/React Native. Sólidas habilidades backend en REST APIs, SQL Server/MySQL, Entity Framework y Dapper, además de JavaScript/TypeScript moderno, Node.js y Java/Spring Boot. Experiencia integrando pagos con Stripe, búsqueda con Algolia y plataformas cloud (AWS/GCP), aplicando Clean Architecture, participando en flujos de trabajo Agile, revisando PRs y liderando proyectos con clientes directos y equipos distribuidos en distintas zonas horarias.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
@@ -17,7 +17,7 @@
 
     "sobre-mi": {
         "title": "Sobre mí",
-        "texto_sobreMi": "Ingeniero en Sistemas graduado de la Universidad Fidélitas de Costa Rica, con formación técnica especializada en desarrollo de aplicaciones informáticas por el Instituto Nacional de Aprendizaje (INA). Durante dos años de estudios técnicos, realicé mi práctica profesional como desarrollador .NET en Grupo Empresarial Datasoft y Global Teams, donde consolidé mis habilidades en entornos productivos reales.\n\nHe trabajado como desarrollador full-stack en proyectos remotos para empresas como NetForemost Inc., 7Card y Versatec, participando activamente en el diseño, desarrollo e implementación de soluciones tecnológicas. Domino tecnologías como .NET, Entity Framework, Flutter (con patrón Bloc), C#, SQL Server, Firebase, PostgreSQL y Google Cloud, entre otras.\n\nTambién he desarrollado integraciones completas de pagos mediante Stripe.\n\nAdemás, he desempeñado roles de liderazgo técnico, coordinando equipos de desarrollo, revisando pull requests y asegurando la calidad y eficiencia en la entrega de soluciones escalables que responden a necesidades reales de negocio."
+        "texto_sobreMi": "Profesional en Ingeniería en Sistemas de la Universidad Fidélitas de Costa Rica, con formación técnica especializada en desarrollo de aplicaciones informáticas por el Instituto Nacional de Aprendizaje (INA). Durante dos años de estudios técnicos, realicé mi práctica profesional como desarrollador .NET en Grupo Empresarial Datasoft y Global Teams, donde consolidé mis habilidades en entornos productivos reales.\n\nHe trabajado como desarrollador full-stack en proyectos remotos para empresas como NetForemost Inc., 7Card, Versatec y The Amen Clinics en Estados Unidos, participando activamente en el diseño, desarrollo e implementación de soluciones tecnológicas. Domino tecnologías como .NET, Entity Framework, Flutter (con patrón Bloc), C#, Python, Algolia, SQL Server, Firebase, PostgreSQL y Google Cloud, entre otras.\n\nTambién he desarrollado integraciones completas de pagos mediante Stripe en proyectos de la empresa NetForemost.\n\nAdemás, he desempeñado roles de liderazgo técnico, coordinando equipos de desarrollo, revisando pull requests y asegurando la calidad y eficiencia en la entrega de soluciones escalables que responden a necesidades reales de negocio."
     },
 
 
