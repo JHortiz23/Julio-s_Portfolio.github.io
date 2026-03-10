@@ -160,14 +160,12 @@ div.btn {
 }
 
 .links {
-    width: 5%;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 3rem 2rem 3rem;
+    left: 2rem;
+    padding: 1rem;
 }
 
 .links img {
-    margin: .7rem 0 .7rem 0;
+    width: 2.6rem;
 }
 
 .links .icon-CodePen {

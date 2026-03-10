@@ -105,21 +105,22 @@
                 </div>
             </div>
 
-            <div class="links">
-                <a href="https://www.linkedin.com/in/julio-hurtado-ortiz-71714a1b7/" target="_blank">
-                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
-                </a>
-                <a href="https://github.com/JHortiz23" target="_blank">
-                    <img src="./assets/images/icon-github.png" alt="GitHub">
-                </a>
-                <a href="mailto:juhuortiz13@gmail.com">
-                    <img src="./assets/images/email.png" alt="Email">
-                </a>
-                <a href="https://wa.me/+50687474054" target="_blank">
-                    <img src="./assets/images/whatsapp.png" alt="WhatsApp">
-                </a>
-            </div>
         </section>
+
+        <div class="links">
+            <a href="https://www.linkedin.com/in/julio-hurtado-ortiz-71714a1b7/" target="_blank">
+                <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/JHortiz23" target="_blank">
+                <img src="./assets/images/icon-github.png" alt="GitHub">
+            </a>
+            <a href="mailto:juhuortiz13@gmail.com">
+                <img src="./assets/images/email.png" alt="Email">
+            </a>
+            <!-- <a href="https://wa.me/+50687474054" target="_blank">
+                <img src="./assets/images/whatsapp.png" alt="WhatsApp">
+            </a> -->
+        </div>
 
         <!-- Sobre mí -->
         <section class="sobreMi" id="sobreMi">
@@ -395,13 +396,13 @@ Además, he desempeñado roles de liderazgo técnico, coordinando equipos de des
                 <a href="mailto:juhuortiz13@gmail.com">
                     <img src="./assets/images/email.png" alt="Email">
                 </a>
-                <a href="https://wa.me/+50687474054" target="_blank">
+                <!-- <a href="https://wa.me/+50687474054" target="_blank">
                     <img src="./assets/images/whatsapp.png" alt="WhatsApp">
-                </a>
+                </a> -->
             </div>
 
             <div class="container_text--footer">
-                <span>Copyright 2024© | designed</span>
+                <span>Copyright <span id="currentYear"></span>© | designed</span>
                 <img src="./assets/images/icon-corazon.png" alt="Corazón" style="display: none;">
                 <span>by</span>
                 <span>Julio Ortiz</span>
@@ -422,6 +423,9 @@ Además, he desempeñado roles de liderazgo técnico, coordinando equipos de des
     <script>
         AOS.init();
     </script>
+
+    <!-- Año dinámico -->
+    <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
 
     <!-- Mi script -->
     <script src="./script.js"></script>
