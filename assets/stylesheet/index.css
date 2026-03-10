@@ -554,6 +554,16 @@ img.logo-ina {
     width: 24rem;
 }
 
+img.logo-fidelitas {
+    display: block;
+    margin: 0 auto;
+}
+
+.cards--formacion.card-fidelitas {
+    justify-content: center;
+    gap: 5rem;
+}
+
 img.logo-one {
     width: 21rem;
     margin: 7rem 0 6rem 0;
