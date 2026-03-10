@@ -62,8 +62,21 @@ nav.nav_menu.active {
 
 /* Habilidades */
 
-.cards_container--habilidades {
-    column-gap: 4rem;
+.skills-grid {
+    padding: 0 3rem 5rem 3rem;
+}
+
+.skill-category__items {
+    gap: 1.2rem;
+}
+
+.skill-chip img {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.skill-chip span {
+    font-size: 1.5rem;
 }
 
 /* Formación */

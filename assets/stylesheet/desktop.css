@@ -208,7 +208,7 @@ div.btn {
 /* Habilidades */
 
 .habilidades {
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
     position: relative;
 }
 
@@ -217,37 +217,29 @@ div.btn {
     font-size: 3rem;
 }
 
-.puntos1-habilidades {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 15rem 0 0 /* 41rem */ 20%;
-    background-attachment: fixed;
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 4rem 5rem 4rem;
 }
 
-.puntos2-habilidades {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 0 0 0 76%;
+.skill-category:first-child,
+.skill-category:nth-child(2) {
+    grid-column: span 1;
 }
 
-.cards_container--habilidades {
-    grid-template-columns: 13rem 13rem 13rem 13rem;
-    grid-template-rows: 14rem 14rem;
-    padding: 0;
-    margin-top: 2rem;
+.skill-chip img {
+    width: 4rem;
+    height: 4rem;
 }
 
-.cards--habilidades:hover {
-    filter: saturate(100%);
-    border: 1px solid var(--beaver);
-    transition: all 1s;
-}
-
-.cards--habilidades p {
+.skill-chip span {
     font-size: 1.6rem;
-    margin-top: .8rem;
+}
+
+.skill-chip:hover {
+    transform: translateY(-4px) scale(1.03);
 }
 
 /* Formación */
