@@ -10,7 +10,7 @@
     "home": {
         "home_text-1": "Hola! Soy",
         "home_text-3": "Desarrollador .Net & Flutter",
-        "parrafo-info": "Desarrollador .NET y Flutter orientado a los detalles, con experiencia práctica en el desarrollo de APIs backend, integración de frontend con Flutter y liderazgo de equipos en proyectos con clientes. Dominio de C#, ASP.NET, SQL Server y Git. Capacidad comprobada para gestionar proyectos externos, revisar pull requests y colaborar con equipos multidisciplinarios. Apasionado por construir soluciones escalables que resuelvan problemas reales de negocio.",
+        "parrafo-info": "Desarrollador Full-Stack orientado a resultados con más de 2 años de experiencia entregando soluciones móviles y web multiplataforma con .NET/ASP.NET, Flutter y React/React Native. Sólidas habilidades backend en REST APIs, SQL Server/MySQL, Entity Framework y Dapper, además de JavaScript/TypeScript moderno, Node.js y Java/Spring Boot. Experiencia integrando pagos con Stripe, búsqueda con Algolia y plataformas cloud (AWS/GCP), aplicando Clean Architecture, participando en flujos de trabajo Agile, revisando PRs y liderando proyectos con clientes directos y equipos distribuidos en distintas zonas horarias.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },
@@ -34,8 +34,8 @@
         "tiempo-formacion2": "2022 - 2024",
         "formacion3": "Operador de tecnologías de la Información",
         "tiempo-formacion3": "2023 - 2023",
-        "formacion4": "Inglés para Servicio al Cliente",
-        "tiempo-formacion4": "2019 - 2020"
+        "formacion4": "Bachillerato en Ingenieria de Sistemas",
+        "tiempo-formacion4": "2024 - En curso"
     },
 
     "proyectos": {
